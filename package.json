@@ -1,0 +1,26 @@
+{
+  "name": "gheRunner",
+  "version": "1.0.0",
+  "description": "Github Serf hosted runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nischay30/gheRunner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nischay30/gheRunner/issues"
+  },
+  "homepage": "https://github.com/nischay30/gheRunner#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.5.3",
+    "supertest": "^5.0.0"
+  }
+}
